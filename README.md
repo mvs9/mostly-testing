@@ -3,9 +3,11 @@ For this task, I chose to use Playwright for its ease of use as well as straight
 #### GUIDE TO RUNNING A TEST
 1. Navigate to the repository on Github and clone into your local machine: https://github.com/mvs9/mostly-testing
 2. The main test is in the tests folder, under MostlyTesting.spec.ts with three test methods, 'verify bookmarks', 'verify search result' and 'verify contact form'
-3. Run the below command by either:
-    - opening the folder in VS Code and cretaing a new terminal 
+3. Open a terminal either by:
+    - opening the folder in VS Code and creating a new terminal 
     - right clicking on the folder in file explorer and opening a terminal (in the example below, I used Git Bash)
+4. Install the dependencies required to run the test using `npm install`
+5. Once installed, use the below command to run the test 'MostlyTesting.spec.ts'
   
 `npx playwright test`
 
