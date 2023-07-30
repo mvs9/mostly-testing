@@ -20,14 +20,14 @@ If that doesn't work, try:
 
 You can find a report under 'MostlyTesting/playwright-report' either by: 
 1. Running the below command to 
-`npx playwright show-report playwright-report`
+`npx playwright show-report test-report`
 
-2. Copying the path of the file playwright-report/index.html into your browser.
+2. Copying the path of the file test-report/index.html into your browser.
 
 This should open up a webpage showing the three tests that ran in Chromium, Firefox and Webkit.
 
-![report](test-guide-images/report.PNG)
+![report](test-report/report.PNG)
 
-If you want to create a new report, run the command:
+If you want to create a new report, run the command below. This will create a new test report in folder 'playwright-report'.
 
 `npx playwright test --reporter=html`
