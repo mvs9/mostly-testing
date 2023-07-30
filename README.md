@@ -6,8 +6,8 @@ For this task, I chose to use Playwright for its ease of use as well as straight
     - opening the folder in VS Code and cretaing a new terminal 
     - right clicking on the folder in file explorer and opening a terminal (in the example below, I used Git Bash)
 
-![alt text](test-guide-images\folder_terminal.PNG)
-![alt text](test-guide-images\vscode_terminal.PNG)
+![alt text](test-guide-images\folder_terminal.png)
+![alt text](test-guide-images\vscode_terminal.png)
 
 `npx playwright test`
 
@@ -24,7 +24,7 @@ You can find a report under 'MostlyTesting/playwright-report' either by:
 
 This should open up a webpage showing the three tests that ran in Chromium, Firefox and Webkit.
 
-![alt text](test-guide-images\report.PNG)
+![alt text](test-guide-images\report.png)
 
 If you want to create a new report, run the command:
 
