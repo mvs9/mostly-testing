@@ -26,7 +26,7 @@ You can find a report under 'MostlyTesting/playwright-report' either by:
 
 This should open up a webpage showing the three tests that ran in Chromium, Firefox and Webkit.
 
-![report](test-report/report.PNG)
+![report](test-guide-images/report.PNG)
 
 If you want to create a new report, run the command below. This will create a new test report in folder 'playwright-report'.
 
