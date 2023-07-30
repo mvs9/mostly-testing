@@ -2,17 +2,19 @@ For this task, I chose to use Playwright for its ease of use as well as straight
 
 #### GUIDE TO RUNNING A TEST
 1. Navigate to the repository on Github and clone into your local machine: https://github.com/mvs9/mostly-testing
-2. Run the below command by either:
+2. The main test is in the tests folder, under MostlyTesting.spec.ts with three test methods, 'verify bookmarks', 'verify search result' and 'verify contact form'
+3. Run the below command by either:
     - opening the folder in VS Code and cretaing a new terminal 
     - right clicking on the folder in file explorer and opening a terminal (in the example below, I used Git Bash)
-
-![alt text](test-guide-images\folder_terminal.png)
-![alt text](test-guide-images\vscode_terminal.png)
-
+  
 `npx playwright test`
 
 If that doesn't work, try:
 `npx playwright test MostlyTesting.spec.ts`
+
+
+![bash-screenshot](test-guide-images/folder_terminal.PNG)
+![vscode-screenshot](test-guide-images/vscode_terminal.PNG)
 
 #### GUIDE TO PRODUCING A REPORT
 
@@ -24,7 +26,7 @@ You can find a report under 'MostlyTesting/playwright-report' either by:
 
 This should open up a webpage showing the three tests that ran in Chromium, Firefox and Webkit.
 
-![alt text](test-guide-images\report.png)
+![report](test-guide-images/report.PNG)
 
 If you want to create a new report, run the command:
 
