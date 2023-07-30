@@ -3,6 +3,7 @@ import { test, expect, chromium } from '@playwright/test';
 let browser;
 
 test.beforeEach(async ({page}) => {
+  browser = await chromium.launch({ headless: false });
   await page.goto('https://mostly.ai/', { waitUntil: 'domcontentloaded' });
 })
 
